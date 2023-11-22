@@ -2,9 +2,43 @@
 
 Este proyecto es para almacenar una API rest hecha en Python con Django
 
-## Como usar?
+Hecha por horacio henao
 
-## Proceso de desarrollo
+# Como usar?
+
+Para usar y ejeuctar esta db se deben usar los siguiente comandos
+
+1. Usar el comando
+ ```
+ git clone https://github.com/horaciohenao/ApiRest-Python-23-2.git
+ ```
+ 
+2. Moverse al directorio apropiado
+```
+cd ApiRest-Python-23-2
+```
+ 
+3. Crear un entorno de python con 
+```
+py -m venv .venv
+```
+
+4. Ejecutar el entorno
+```
+.venv\Scripts\activate.bat
+```
+
+5. Descargar las librerias necesarias
+```
+pip install django && pip install djangorestframework
+```
+
+6. Se ejecuta el comando 
+```
+py manage.py runserver
+```
+
+# Proceso de desarrollo
 
 ### Crear entorno
 
