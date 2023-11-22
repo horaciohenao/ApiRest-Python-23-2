@@ -69,4 +69,4 @@ py manage.py runserver
 
 9. LISTO! Ahora puede ver la pagina [administracion](http://127.0.0.1:8000/admin/login/?next=/admin/) solo use los datos creados anteriormente, para el login
 
-P.D: Si desea ver cómo hacer post o get mire mi video [NO DISPONIBLE AUN]() para ver como esta todo hecho
+P.D: Si desea ver cómo hacer POST o un GET mire mi [video](https://youtu.be/r341QJ1Q0eo) para ver como esta todo hecho
