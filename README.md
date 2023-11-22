@@ -33,10 +33,30 @@ py -m venv .venv
 pip install django && pip install djangorestframework
 ```
 
-6. Se ejecuta el comando 
+6. Comandos para solucionar posibles errores
+```
+py manage.py migrate
+```
+
+7. Se ejecuta el comando 
+```
+py manage.py createsuperuser
+```
+Esto para crear una cuenta de administrador, para mantenerlo simple, use
+```
+user: admin
+email: email@email.com
+password: 1234
+```
+
+8. Ejecute el servidor
 ```
 py manage.py runserver
 ```
+
+9. LISTO! Ahora puede ver la pagina [administracion](http://127.0.0.1:8000/admin/login/?next=/admin/) solo use los datos creados anteriormente, para el login
+
+P.D: Si desea ver cómo hacer post o get mire mi video [NO DISPONIBLE AUN]() para ver como esta todo hecho
 
 # Proceso de desarrollo
 
